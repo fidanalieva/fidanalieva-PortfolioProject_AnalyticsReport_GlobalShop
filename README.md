@@ -1,0 +1,2 @@
+# fidanalieva-PortfolioProject_AnalyticsReport_GlobalShop
+SQL portfolio project analyzing GlobalShop, a global retailer, using Oracle's sh.sales schema. Covers revenue trends, customer segmentation (RFM), product performance, channel effectiveness, retention, and geographic expansion using CTEs, window functions, and pivot queries — plus an executive summary with data-backed strategic recommendations.

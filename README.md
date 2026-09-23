@@ -52,3 +52,4 @@ Each analysis in the SQL file includes the original business question, a plain-E
 ## Author
 
 Fidan Aliyeva
+https://www.linkedin.com/in/fidanlyv/

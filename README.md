@@ -6,6 +6,16 @@ This project analyzes sales, customer, product, and geographic data for **Global
 
 The project was completed as a portfolio piece to demonstrate SQL proficiency (CTEs, window functions, RFM segmentation, PIVOT, cohort analysis) alongside the ability to translate technical output into plain-English business recommendations.
 
+
+## Key Findings (Executive Summary)
+
+- **Marketing Effectiveness:** The Partners channel grew 44% year-over-year (2020–2021), while Direct Sales — still the largest channel at $14.26M in 2021 — declined 3%.
+- **Geographic Expansion:** Outside the top 10 markets, country 52775 recorded 163% YoY growth, making it a strong candidate for early expansion.
+- **Customer Loyalty:** 90-day return rates varied sharply by acquisition cohort — from 88% (January) to 64% (April) — pointing to inconsistent post-purchase engagement.
+
+Full findings, methodology, and strategic recommendations are available in the `report/` folder.
+
+
 ## Data Source
 
 Data comes from Oracle Free SQL's built-in **`sh` (Sales History)** sample schema, specifically the `sh.sales`, `sh.customers`, `sh.products`, `sh.channels`, and `sh.times` tables. This is a standard Oracle sample dataset representing multi-year, multi-channel retail sales transactions.
@@ -30,13 +40,6 @@ Each analysis in the SQL file includes the original business question, a plain-E
 │ └── TheGlobalShop_AnalyticsReport... # Full written report with findings & screenshots
 └── README.md # This file
 
-## Key Findings (Executive Summary)
-
-- **Marketing Effectiveness:** The Partners channel grew 44% year-over-year (2020–2021), while Direct Sales — still the largest channel at $14.26M in 2021 — declined 3%.
-- **Geographic Expansion:** Outside the top 10 markets, country 52775 recorded 163% YoY growth, making it a strong candidate for early expansion.
-- **Customer Loyalty:** 90-day return rates varied sharply by acquisition cohort — from 88% (January) to 64% (April) — pointing to inconsistent post-purchase engagement.
-
-Full findings, methodology, and strategic recommendations are available in the `report/` folder.
 
 ## Tools & Techniques
 
